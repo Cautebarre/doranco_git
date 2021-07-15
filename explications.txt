@@ -1,0 +1,28 @@
+DECOUVERTE GIT
+
+GIT est un outi lde Versionning, c'est c equ'on appelle un VCS (Version COntrol System).
+Il permet d'avoir plusieurs versions des fichiers qui composent une application (site web, app web), et ainsi
+travailler en équipe tout en gardant les historiques (versions) des fichiers sur lesquels on travaille.
+
+GIT doit être installé et utilisé sur le pc client et serveur.
+Il existe plusieurs concurrent de GIT (SVN par exemple) mais GIT est le plus utilisé.
+
+GITHUB est ce qu'on appelle un hébergeur de repositories GIT. C'est à dire qu'il se charge d'héberger les versions
+de notre applciaiton et ainsi nous pouvons y accéder en ligne. Il existe plusieurs hébergeurs (GITBCUKET)
+mais GITHUB est le plus connu et le plus utilisé.
+
+*****
+LIGNE DE COMMANDE 
+
+    git --version // afficher la version de git
+    git init // initialiser un dépôt git
+    git config --global user.email LE MAIL // s'identifier à git via MAIL
+    git config --global user.name prenom NOM // identifier via nom/prénom
+    git config --list // afficher la config complète > Appuyer sur Q pour sortir
+
+****
+VOCABULAIRE :
+
+    repository : dépôt GIT
+    à côté du fichier 
+        U : untracked > Git ne prend pas en compte ce fichier
